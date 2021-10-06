@@ -39,8 +39,6 @@
 
   <h2 id='galeria'>🖼 Galeria</h2>
   
-  <img src=""
-  
   <h2 id='nota'>📃 Notas</h2>
   <p>Se não for de seu interesse realizar algum download externo, basta esperar até a disponibilização do projeto completo que será feita numa data posterior.</p>
   <p>Projeto feito exclusivamente para estudos, ou seja, sem visar nenhuma forma de lucro com o mesmo.</p>
