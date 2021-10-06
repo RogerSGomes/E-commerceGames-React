@@ -16,6 +16,6 @@ Trascrição do meu projeto (E-commerceGames), feito em PHP, para React.
   
   Pronto! O projeto já estará rodando na porta 3000 de seu dispositivo, agora é só aproveitar e vizualizar todos os recursos presentes nele.
 
-  Conciderações importantes: tenha certeza de que seu dispositivo tenha o node instalado e, se você não quiser realizar nenhum download externo, basta esperar até a disponibilização do projeto completo será feita numa data posterior.
+  Conciderações importantes: tenha certeza de que seu dispositivo tenha o node instalado e, se você não quiser realizar nenhum download externo, basta esperar até a disponibilização do projeto completo que será feita numa data posterior.
 
   Nota: projeto feito exclusivamente para estudos, ou seja, sem visar nenhuma forma de lucro com o mesmo.
