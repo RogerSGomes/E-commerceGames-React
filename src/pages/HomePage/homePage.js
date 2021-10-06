@@ -36,7 +36,9 @@ function HomePage() {
       {/* Fim do Cabeçalho */}
 
       {/* Container 1 */}
-      <div className="container" />
+      <div className="container">
+
+      </div>
       {/* Fim do Container 1 */}
 
     </div>
