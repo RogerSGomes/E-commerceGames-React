@@ -18,4 +18,4 @@ Quando o download finalizar, basta rodar a aplicação com o comando:
 
   npm start
   
-Pronto! O projeto já estará rodando na porta 3000 de seu dispositivo, agora é só aproveitar e vizualizar todas os recursos presentes no projeto.
+Pronto! O projeto já estará rodando na porta 3000 de seu dispositivo, agora é só aproveitar e vizualizar todas os recursos presentes nele.
