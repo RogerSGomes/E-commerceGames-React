@@ -8,7 +8,7 @@
       <li><a href="#nota">Notas</a></li>
     </ul>    
   <h2 id='sobre'>💬 Sobre</h2>
-  Este projeto é uma trascrição do meu projeto (<a href="https://github.com/RogerSGomes/E-commerceGames">E-commerceGames</a>), feito em PHP, para React. Ele foi criado com o intuíto de melhorar meus conhecimentos com esta biblioteca e também para resolver algumas limitações encontradas anteriormente. Como esta é uma transcrição, o design e alguns recursos como o cadastro e login de usuários, utilizados no projeto antigo foram mantidos para que a experiência do usuário seja a mesma, mesmo que "por baixo dos panos" diversas mudanças, principalmente no front-end, tenham acontecido.
+  Este projeto é uma trascrição do meu projeto (<a href="https://github.com/RogerSGomes/E-commerceGames">E-commerceGames</a>), feito em PHP, para React. Ele foi criado com o intuito de melhorar meus conhecimentos com esta biblioteca e também para resolver algumas limitações encontradas anteriormente. Como esta é uma transcrição, o design e alguns recursos como o cadastro e login de usuários, utilizados no projeto antigo foram mantidos para que a experiência do usuário seja a mesma, mesmo que "por baixo dos panos" diversas mudanças, principalmente no front-end, tenham acontecido.
   
   <h2 id='requisitos'>🧩 Pré-requisitos para rodar a aplicação</h2>
   <p>Tenha certeza de que seu dispositivo tem o Node.js instalado, senão instale-o no link: 
