@@ -37,7 +37,7 @@
   <p>Tudo pronto! O projeto já estará rodando na porta 3000 de seu dispositivo, agora é só aproveitar e vizualizar todos os recursos presentes nele.</p>
 
   
-  <h2 id='nota' style='color: red;'>Notas</h2>
+  <h2 id='nota'>💬Notas</h2>
   <p>Se não for de seu interesse realizar algum download externo, basta esperar até a disponibilização do projeto completo que será feita numa data posterior.</p>
   <p>Projeto feito exclusivamente para estudos, ou seja, sem visar nenhuma forma de lucro com o mesmo.</p>
   <p>Projeto realizado com a ajuda de Robert da Silva Gomes (GitHub: RobertSGomes).
