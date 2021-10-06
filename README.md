@@ -1,4 +1,4 @@
-# E-Commerce-Games-React
+# E-commerceGames-React
 Trascrição do meu projeto (E-Commerce-Games), feito em PHP, para React
 
 Este projeto foi criado com o intuíto de melhorar meus conhecimentos na biblioteca React. Utilizei um projeto antigo feito em PHP pelo meu irmão(Git: RobertSGomes) e eu, que concistia
