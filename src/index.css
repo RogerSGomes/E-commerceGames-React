@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 100vh;
+    grid-template-areas: "navbar content";
+}
+
+.navbar {
+    grid-area: navbar;
+    height: 100vh;
+    background: #1B1B1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar ul li:first-child {
+    margin-top: 10px;
+}
+
+.navbar ul .bottom {
+    position: absolute;
+    bottom: 0;
+    width: 5vw;
+    margin-bottom: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li a .tooltip {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    height: 0px;
+    width: 0px;
+    background: #1b1b1b;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #D83953;
+    color: #f1f1f1;
+    font-size: 0px;
+    transition: 0s;
+    opacity: 0;
+    z-index: 2;
+}
+
+.navbar ul li a:hover:not(.active) .tooltip {
+    transition: all 0.05s ease;
+    opacity: 1;
+    width: 122px;
+    font-size: 16px;
+    height: 35px;
+}
+
+.navbar ul li a.active {
+    background: #D83953;
+    cursor: default;
+}
+
+.navbar ul li a:hover:not(.active) {
+    background: #D83953;
+    box-shadow: 3px 3px 25px #D83953;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    grid-area: content;
+}
