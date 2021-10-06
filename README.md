@@ -17,7 +17,7 @@
   </ul>
   
   <h2 id='instalacao'>🚀 Rodando a Aplicação</h2>  
-  <p>Para rodar a aplicação basta realizar o download, extrair o arquivo com alguma ferramenta de descompactação de arquivos (eu uso o WinRAR), entrar no repositório através de um prompt de comando (eu uso o PowerShell), Exemplo:</p>
+  <p>Para rodar a aplicação basta realizar o download, extrair o arquivo com alguma ferramenta de descompactação de arquivos (eu uso o WinRAR) e entrar no repositório através de um prompt de comando (eu uso o PowerShell):</p>
 
   <ul>
     <li>
