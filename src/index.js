@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 //Páginas
 import HomePage from './pages/HomePage/homePage';
@@ -27,8 +28,8 @@ ReactDOM.render(
               className="tooltip">Início</span></Link>
           </li>
           <li>
-            <Link to="#loja"><i className="material-icons">store</i><span
-              className="tooltip">Loja</span></Link>
+            <HashLink smooth to="./#store"><i className="material-icons">store</i><span
+              className="tooltip">Loja</span></HashLink>
           </li>
           <li>
             <Link to="/cart"><i className="material-icons">shopping_cart</i><span
@@ -53,7 +54,7 @@ ReactDOM.render(
           <Route path="/login">
             <LoginPage />
           </Route>
-          <Route path="#loja">
+          <Route path="./#store">
             <HomePage />
           </Route>
           <Route path="/">

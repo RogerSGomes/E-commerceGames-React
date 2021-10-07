@@ -65,7 +65,7 @@ function HomePage() {
       {/* Fim do Cabeçalho */}
 
       {/* Container 1 */}
-      <div id="loja" className="container">
+      <div id="store" className="container">
         <h1>Loja de Games</h1>
         <div className="products">
           <ProductCard
