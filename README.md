@@ -19,30 +19,22 @@
   <h2 id='instalacao'>🚀 Rodando a Aplicação</h2>  
   <p>Para rodar a aplicação basta realizar o download, extrair o arquivo com alguma ferramenta de descompactação de arquivos (eu uso o WinRAR) e entrar no repositório através de um prompt de comando (eu uso o PowerShell):</p>
 
-  <ul>
-    <li>
-      cd -path "c:\..\downloads\E-commerceGames-React-main"
-    </li>
-  </ul>
+    cd -path "c:\..\downloads\E-commerceGames-React-main"
   
   <p>Em seguida, executar o comando:</p>
-
-  <ul>
-    <li>npm install</li>
-  </ul>
   
+    npm install
   
   <p>Quando o download finalizar, basta rodar a aplicação com o comando:</p>
 
-  <ul>
-    <li>npm start</li>
-  </ul>
+    npm start
   
   <p>Tudo pronto! O projeto já estará rodando na porta 3000 de seu dispositivo, agora é só aproveitar e vizualizar todos os recursos presentes nele.</p>
 
   <h2 id='galeria'>🖼 Galeria</h2>
-  
+  <p>Página inicial</p>
   <img src="./github/Galeria1.jpg" alt="Galeria 1" />
+  <p>Loja</p>
   <img src="./github/Galeria2.jpg" alt="Galeria 2" />
   
   <h2 id='nota'>📃 Notas</h2>
