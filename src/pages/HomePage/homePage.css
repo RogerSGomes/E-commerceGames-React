@@ -23,7 +23,7 @@
         grid-template-rows: 700px;
         grid-template-areas: 'sessionleft sessionright';
 
-        background-image: url("../../assets/homePage_images/gtav.jpg");
+        background-image: url("../../assets/homePage_images/img1.jpg");
         background-repeat: no-repeat;
         background-size: 100%100%;
     }
@@ -34,7 +34,7 @@
 
         position: absolute;
 
-        background-image: url("../../assets/homePage_images/gtav.jpg");
+        background-image: url("../../assets/homePage_images/img1.jpg");
         background-repeat: no-repeat;
         background-size: 100%100%;
 
@@ -52,69 +52,6 @@
         background-image: linear-gradient(to right, rgba(27, 27, 27, 1), rgba(27, 27, 27, 0.9),  rgba(27, 27, 27, 0.7), rgba(27, 27, 27, 0.5));
 
         clip-path: polygon(0 0, 650px 0, 552.5px 100%, 0% 100%);
-    }
-
-    .jumbotron .session_1 .container_item {
-        padding: 20px 100px 20px 50px;
-
-        width: 100%;
-
-        display: block;
-        z-index: 1;
-    }
-
-    .jumbotron .session_1 .container_item .item_body {
-        padding-bottom: 20px;
-    }
-
-    .jumbotron .session_1 .container_item .item_body .item_title {
-        margin-bottom: 25px;
-
-        color: #D83953;
-        font-family: 'Nunito', sans-serif;
-        font-size: 30px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        transform: scaleY(2);
-    }
-
-    .jumbotron .session_1 .container_item .item_body .item_subtitle {
-        margin-bottom: 15px;
-
-        font-size: 14px;
-    }
-
-    .jumbotron .session_1 .container_item .item_body .item_description {
-        font-size: 14px;
-    }
-
-    .jumbotron .session_1 .container_item .item_footer {
-        margin-top: 50px;
-    }
-
-    .jumbotron .session_1 .container_item .item_footer .item_button {
-        padding: 18px 35px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        color: white;
-        font-family: 'Nunito', sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-
-        border: none;
-        background-color: #D83953;
-
-        transition: 0.2s;
-        cursor: pointer;
-    }
-
-    .jumbotron .session_1 .container_item .item_footer .item_button:hover {
-        box-shadow: 3px 3px 25px #D83953;
     }
     /* Fim da sessão 1 */
 
@@ -148,114 +85,6 @@
         justify-content: space-around;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    .container .products .product_card {
-        margin: 30px 20px;
-
-        width: 300px;
-        height: 500px;
-
-        position: relative;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 250px 210px 40px;
-        grid-template-areas: 
-        "card-header"
-        "card-body"
-        "card-footer"
-        ;
-
-        color: black;
-        background-color: white;
-        box-shadow:  0 0 50px #000000;
-        border-radius: 10px;
-    }
-
-    .container .products .product_card .card_header {
-        grid-area: card-header;
-    }
-
-    .container .products .product_card .card_header .header_img {
-        height: 200px;
-        
-        background-image: url("../../assets/homePage_images/gtav.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    .container .products .product_card .card_header .header_title {
-        height: 50px;
-
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        color: white;
-        font-family: 'Nunito', sans-serif;
-        font-size: 18px;
-        letter-spacing: 1px;
-
-        background-color: #1b1b1b;
-    }
-
-    .container .products .product_card .card_body {
-        padding: 30px 0px;
-
-        position: relative;
-        display: flex;
-        grid-area: card-body;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .container .products .product_card .card_body .body_price {
-        color: #D83953;
-        font-family: 'Nunito', sans-serif;
-        font-size: 22px;
-        letter-spacing: 0.5px;
-        transform: scaleY(1.5);
-    }
-
-    .container .products .product_card .card_body .body_title {
-        margin: 12px 0px;
-
-        color: #333;
-    }
-
-    .container .products .product_card .card_body .body_platforms {
-        width: 100%;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .container .products .product_card .card_body .body_platforms .platform_item {
-        padding: 8px;
-
-        border-radius: 10px; 
-        border: 3px solid black;
-    }
-
-    .container .products .product_card .card_footer {
-        grid-area: card-footer;
-    }
-
-    .container .products .product_card .card_footer .footer_button {
-        width: 100%;
-        height: 100%;
-
-        color: white;
-
-        background-color: #D83953;
-
-        border: none;
-        border-radius: 0px 0px 10px 10px;
     }
 /* Fim do container 1 */
 
