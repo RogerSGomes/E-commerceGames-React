@@ -41,7 +41,7 @@
   <p>Tudo pronto! O projeto já estará rodando na porta 3000 de seu dispositivo, agora é só aproveitar e vizualizar todos os recursos presentes nele.</p>
 
   <h2 id='galeria'>🖼 Galeria</h2>
-  <p>Página inicial - Deslogado</p>
+  <p>Página inicial</p>
   <img src="./github/Galeria1.jpg" alt="Galeria 1" />
   <p>Loja</p>
   <img src="./github/Galeria2.jpg" alt="Galeria 2" />
