@@ -26,17 +26,12 @@
   </ul>
   
   <p>Em seguida, executar o comando:</p>
-
-  <ul>
-    <li>npm install</li>
-  </ul>
   
+    npm install
   
   <p>Quando o download finalizar, basta rodar a aplicação com o comando:</p>
 
-  <ul>
-    <li>npm start</li>
-  </ul>
+    npm start
   
   <p>Tudo pronto! O projeto já estará rodando na porta 3000 de seu dispositivo, agora é só aproveitar e vizualizar todos os recursos presentes nele.</p>
 
