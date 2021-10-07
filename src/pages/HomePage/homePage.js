@@ -36,7 +36,163 @@ function HomePage() {
       {/* Fim do Cabeçalho */}
 
       {/* Container 1 */}
-      <div className="container">
+      <div id="store" className="container">
+        <h1>Loja de Games</h1>
+
+        <div className="products">
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div className="product_card">
+            <div className="card_header">
+              <div className="header_img"></div>
+              <div className="header_title">Nome do jogo</div>
+            </div>
+            <div className="card_body">
+              <p className="body_price">R$ 00,00</p>
+              <p className="body_title">Selecione uma plataforma:</p>
+              <div className="body_platforms">
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+                <div className="platform_item"><img src="" /></div>
+              </div>
+            </div>
+            <div className="card_footer">
+              <button className="footer_button" type="submit">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
 
       </div>
       {/* Fim do Container 1 */}

@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+html {
+    overflow-y: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -114,4 +118,22 @@
     padding: 0;
     display: flex;
     grid-area: content;
+}
+
+@media only screen and (max-width: calc(650px + 70px)) {
+    .body {
+        grid-template-columns: 10vw 90vw;
+    }
+
+    .navbar ul li a .tooltip {
+        left: calc(10vw + 10px);
+    }
+}
+
+@media only screen and (max-height: 245px) {
+    .navbar ul .bottom {
+        margin: 0;
+        position: relative;
+        bottom: none;
+    }
 }

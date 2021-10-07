@@ -27,6 +27,10 @@ ReactDOM.render(
               className="tooltip">Início</span></Link>
           </li>
           <li>
+            <Link to="/#loja"><i className="material-icons">store</i><span
+              className="tooltip">Loja</span></Link>
+          </li>
+          <li>
             <Link to="/cart"><i className="material-icons">shopping_cart</i><span
               className="tooltip">Carrinho</span></Link>
           </li>
@@ -48,6 +52,9 @@ ReactDOM.render(
           </Route>
           <Route path="/login">
             <LoginPage />
+          </Route>
+          <Route path="/#loja">
+            <HomePage />
           </Route>
           <Route path="/">
             <HomePage />
