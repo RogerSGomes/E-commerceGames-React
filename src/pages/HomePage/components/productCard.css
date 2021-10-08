@@ -85,8 +85,21 @@
 .product_card .card_body .body_platforms .platform_item {
     padding: 8px;
 
-    border-radius: 10px; 
-    border: 3px solid black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+    background-color: #D83953;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.product_card .card_body .body_platforms .platform_item:hover {
+    box-shadow: 3px 3px 25px #D83953;
 }
 
 .product_card .card_footer {

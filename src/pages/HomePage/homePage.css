@@ -61,6 +61,38 @@
     }
     /* Fim da sessão 2 */
 
+    /* Início do carousel */
+    .jumbotron .carousel {
+        width: 100%;
+        height: 150px;
+
+        overflow-x: hidden;
+
+        position: absolute;
+        display: grid;
+        grid-template-columns: 552.5px auto;
+        grid-template-rows: 150px;
+        grid-template-areas: 'selected items';
+
+        bottom: 20px;
+    }
+
+    .jumbotron .carousel .carousel_selected {
+        grid-area: selected;
+    
+        display: flex;
+        justify-content: center;
+    }
+
+    .jumbotron .carousel .carousel_items {
+        grid-area: items;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* Fim do carousel */
+
 /* Fim do cabeçalho */
 
 /* Início do container 1 */

@@ -2,6 +2,7 @@ import "./homePage.css";
 
 import ProductCard from "./components/productCard";
 import ItemContainer from "./components/itemContainer";
+import Carousel from "./components/carouselItem";
 
 import background_card1 from "../../assets/homePage_images/img1.jpg";
 import background_card2 from "../../assets/homePage_images/img2.jpg";
@@ -59,7 +60,55 @@ function HomePage() {
         <div className="session_2" />
 
         {/* Carousel */}
-        <div className="carousel" />
+        <div className="carousel">
+          <div className="carousel_selected">
+            <Carousel
+              isActive
+              img={background_card1}
+              isXbox
+              isPS
+              isPC
+            />
+          </div>
+          <div className="carousel_items">
+            <Carousel
+              img={background_card2}
+              isPC
+            />
+            <Carousel
+              img={background_card3}
+              isAndroid
+            />
+            <Carousel
+              img={background_card4}
+              isSwitch
+            />
+            <Carousel
+              img={background_card3}
+              isAndroid
+            />
+            <Carousel
+              img={background_card3}
+              isAndroid
+            />
+            <Carousel
+              img={background_card3}
+              isAndroid
+            />
+            <Carousel
+              img={background_card3}
+              isAndroid
+            />
+            <Carousel
+              img={background_card3}
+              isAndroid
+            />
+            <Carousel
+              img={background_card3}
+              isAndroid
+            />
+          </div>
+        </div>
 
       </div>
       {/* Fim do Cabeçalho */}

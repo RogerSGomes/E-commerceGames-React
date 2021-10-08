@@ -28,8 +28,6 @@ function ProductCard(props) {
     const isSwitch = props.isSwitch;
     const isAndroid = props.isAndroid;
 
-    alert(props.img);
-
     return (
         <div className="product_card">
             <div className="card_header">
