@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-require('./app/controllers/productController')(app);
+require('./app/controllers/index')(app);
 
 app.listen(8000, () => {
     console.log('porta 8000 iniciada');
