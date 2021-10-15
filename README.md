@@ -36,7 +36,7 @@
     <li>Gerenciamento de API's: Insomnia;</li>
     <li>Editor de texto: VisualStudioCode;</li>
     <li>Banco de dados: MongoDB;</li>
-    <li>Comandos do sistema(cmd): PowerShell, cmder.</li>
+    <li>Comandos do sistema(cmd): PowerShell e cmder.</li>
   </ul>
   
   <h2 id='requisitos'>🧩 Pré-requisitos para rodar a aplicação</h2>
