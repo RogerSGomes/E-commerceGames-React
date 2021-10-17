@@ -1,9 +1,9 @@
 import React from 'react';
 import "./itemContainer.css";
 
-function itemContainer(props) {
+function ItemContainer(props) {
     return (
-        <div className="container_item" style={{ display: `${props.isActive ? 'block' : 'none'}` }}>
+        <div className="item_container" style={{ display: `${props.isActive ? 'block' : 'none'}` }}>
             <div className="item_body">
                 <p className="item_title">{props.title}</p>
                 <p className="item_subtitle">{props.subtitle}</p>
@@ -16,4 +16,4 @@ function itemContainer(props) {
     );
 }
 
-export default itemContainer;
+export default ItemContainer;

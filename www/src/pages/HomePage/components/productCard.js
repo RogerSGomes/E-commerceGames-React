@@ -32,7 +32,7 @@ function ProductCard(props) {
         <div className="product_card">
             <div className="card_header">
                 <div className="header_img" style={{ backgroundImage: `url(${props.img})` }}></div>
-                <div className="header_title">{props.name}</div>
+                <div className="header_title">{props.title}</div>
             </div>
             <div className="card_body">
                 <p className="body_price">{props.price}</p>

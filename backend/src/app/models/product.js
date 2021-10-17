@@ -1,13 +1,17 @@
 const mongoose = require('../../database');
 
 const productSchema = new mongoose.Schema({
+    imagem: {
+        type: String,
+        require: true
+    },
     titulo: {
         type: String,
         require: true
     },
     subtitulo: {
         type: String,
-        require: false,
+        require: true,
     },
     descricao: {
         type: String,

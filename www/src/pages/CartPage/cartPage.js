@@ -1,6 +1,6 @@
 function CartPage() {
     return (
-        <div className="CartPage">
+        <div className="cart_page">
             Carrinho!
         </div>
     );

@@ -28,7 +28,7 @@ ReactDOM.render(
               className="tooltip">Início</span></Link>
           </li>
           <li>
-            <HashLink smooth to="./#store"><i className="material-icons">store</i><span
+            <HashLink smooth to="/#store"><i className="material-icons">store</i><span
               className="tooltip">Loja</span></HashLink>
           </li>
           <li>
@@ -53,9 +53,6 @@ ReactDOM.render(
           </Route>
           <Route path="/login">
             <LoginPage />
-          </Route>
-          <Route path="./#store">
-            <HomePage />
           </Route>
           <Route path="/">
             <HomePage />

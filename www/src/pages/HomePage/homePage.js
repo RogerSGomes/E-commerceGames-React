@@ -1,22 +1,30 @@
+import { useState, useEffect } from 'react'
+import Api from "../../services/api";
+
 import "./homePage.css";
 
 import ProductCard from "./components/productCard";
 import ItemContainer from "./components/itemContainer";
 import Carousel from "./components/carouselItem";
 
-import background_card1 from "../../assets/homePage_images/img1.jpg";
-import background_card2 from "../../assets/homePage_images/img2.jpg";
-import background_card3 from "../../assets/homePage_images/img3.jpg";
-import background_card4 from "../../assets/homePage_images/img4.jpg";
-import background_card5 from "../../assets/homePage_images/img5.jpg";
-import background_card6 from "../../assets/homePage_images/img6.jpg";
-import background_card7 from "../../assets/homePage_images/img7.jpg";
-import background_card8 from "../../assets/homePage_images/img8.jpg";
-import background_card9 from "../../assets/homePage_images/img9.jpg";
+import Background from "../../assets/homePage_images/img4.jpg";
 
-function HomePage() {
+
+export default function HomePage() {
+  console.log(Background);
+  // Tratamento API - Produtos
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    Api.get("/product")
+      .then((response) => setProducts(response.data))
+      .catch((err) => {
+        console.error("ops! ocorreu um erro" + err);
+      });
+  }, []);
+
   return (
-    <div className="HomePage">
+    <div className="home_page">
 
       {/* Cabeçalho */}
       <div className="jumbotron">
@@ -27,33 +35,24 @@ function HomePage() {
         <div className="session_1">
 
           {/* Item */}
-          <ItemContainer
-            isActive
-            title="GTA V"
-            subtitle="Los Santos"
-            description="Onde as pessoas falsas, os lugares falsos e os problemas falsos se encontram."
-          />
-          <ItemContainer
-            title="Red Dead Redemption 2"
-            subtitle=""
-            description="Vencedor de mais de 175 prêmios de Jogo do Ano e avaliado com mais de 250 notas máximas, Red Dead Redemption 2 é uma história épica de honra e lealdade no alvorecer dos tempos modernos. Inclui Red Dead Redemption 2: Modo História e Red Dead Online."
-          />
-          <ItemContainer
-            title="Battlefield 4"
-            subtitle="Domine a Terra, o Mar e o Ar"
-            description="Participe da destruição incomparável de Battlefield 4™. Faça parte do caos glorioso da guerra total com desafios táticos recompensadores em um cenário interativo."
-          />
-          <ItemContainer
-            title="Celeste"
-            subtitle=""
-            description="Ajude Madeline a enfrentar seus demônios internos em sua jornada até o topo da Montanha Celeste, nesse jogo de plataforma super afiado dos criadores de TowerFall. Desbrave centenas de desafios meticulosos, descubra segredos complicados e desvende o mistério da montanha."
-          />
-          <ItemContainer
-            title="Paladins"
-            subtitle="Se torne um campeão do reino"
-            description="O jogo de tiro em esquipes com temática de fantasia que é um grande sucesso. Junte-se a mais de 30 milhões de jogadores e torne-se um lendário Campeão do Reino, personalizando seu conjunto de habilidades para montar um estilo próprio de jogo."
-          />
-
+          {products.map((item, index) => {
+            if (index === 0) {
+              return <ItemContainer
+                isActive
+                key={index}
+                title={item.titulo}
+                subtitle={item.subtitulo}
+                description={item.descricao}
+              />;
+            } else {
+              return <ItemContainer
+                key={index}
+                title={item.titulo}
+                subtitle={item.subtitulo}
+                description={item.descricao}
+              />;
+            }
+          })}
         </div>
 
         {/* Sessão 2 - Vazio */}
@@ -62,51 +61,31 @@ function HomePage() {
         {/* Carousel */}
         <div className="carousel">
           <div className="carousel_selected">
-            <Carousel
-              isActive
-              img={background_card1}
-              isXbox
-              isPS
-              isPC
-            />
+            {products.map((item, index) => {
+              return <Carousel
+                key={index}
+                isActive
+                img={item.imagem}
+                isXbox={item.plataformas.xbox}
+                isPS={item.plataformas.ps}
+                isPC={item.plataformas.pc}
+                isAndroid={item.plataformas.android}
+                isSwitch={item.plataformas.switch}
+              />
+            }).filter((item, index) => index === 0)}
           </div>
           <div className="carousel_items">
-            <Carousel
-              img={background_card2}
-              isPC
-            />
-            <Carousel
-              img={background_card3}
-              isAndroid
-            />
-            <Carousel
-              img={background_card4}
-              isSwitch
-            />
-            <Carousel
-              img={background_card3}
-              isAndroid
-            />
-            <Carousel
-              img={background_card3}
-              isAndroid
-            />
-            <Carousel
-              img={background_card3}
-              isAndroid
-            />
-            <Carousel
-              img={background_card3}
-              isAndroid
-            />
-            <Carousel
-              img={background_card3}
-              isAndroid
-            />
-            <Carousel
-              img={background_card3}
-              isAndroid
-            />
+            {products.map((item, index) => {
+              return <Carousel
+                key={index}
+                img={item.imagem}
+                isXbox={item.plataformas.xbox}
+                isPS={item.plataformas.ps}
+                isPC={item.plataformas.pc}
+                isAndroid={item.plataformas.android}
+                isSwitch={item.plataformas.switch}
+              />;
+            }).filter((item, index) => index !== 0)}
           </div>
         </div>
 
@@ -117,66 +96,22 @@ function HomePage() {
       <div id="store" className="container">
         <h1>Loja de Games</h1>
         <div className="products">
-          <ProductCard
-            name="GTA V"
-            price="R$ 100,00"
-            img={background_card1}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Red Dead Redemption 2"
-            price="R$ 200,00"
-            img={background_card2}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Battlefield 4"
-            price="R$ 300,00"
-            img={background_card3}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Celeste"
-            price="R$ 400,00"
-            img={background_card4}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Paladins"
-            price="R$ 500,00"
-            img={background_card5}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Valorant"
-            price="R$ 600,00"
-            img={background_card6}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Limbo"
-            price="R$ 700,00"
-            img={background_card7}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Need For Speed Heat"
-            price="R$ 800,00"
-            img={background_card8}
-            isXbox isPS isPC isSwitch isAndroid
-          />
-          <ProductCard
-            name="Fifa 18"
-            price="R$ 900,00"
-            img={background_card9}
-            isXbox isPS isPC isSwitch isAndroid
-          />
+          {products.map((item, index) => {
+            return <ProductCard
+              key={index}
+              img={item.imagem}
+              title={item.titulo}
+              price={item.preco}
+              isXbox={item.plataformas.xbox}
+              isPS={item.plataformas.ps}
+              isPC={item.plataformas.pc}
+              isAndroid={item.plataformas.android}
+              isSwitch={item.plataformas.switch}
+            />;
+          })}
         </div>
       </div>
       {/* Fim do Container 1 */}
-
     </div>
   );
 }
-
-export default HomePage;
