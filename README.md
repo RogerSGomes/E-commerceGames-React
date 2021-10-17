@@ -42,11 +42,18 @@
   </ul>
   
   <h2 id='requisitos'>🧩 Pré-requisitos para rodar a aplicação</h2>
-  <p>Tenha certeza de que seu dispositivo tem o Node.js instalado, senão instale-o no link: 
+  <p>Tenha certeza de que seu dispositivo tem o Node.js instalado, senão instale-o no link:</p>
   <ul>
     <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>
   </ul>
+  <p>O Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. Para verificar se o node está instalado basta executar, em seu prompt de comando, o seguinte comando:</p>
   
+    node -v
+  
+  <p>Juntamente com a instalação do Node.js, seu gerenciador de pacotes (NPM) deve ter sido instalado. Para verificar se o NPM está presente em seu computador basta executar o comando:</p>
+  
+    npm -v
+
   <h2 id='instalacao'>🚀 Rodando a Aplicação</h2>  
   <p>Para rodar a aplicação basta realizar o download, extrair o arquivo com alguma ferramenta de descompactação de arquivos (recomendado: WinRAR) e acessar a pasta 'www', localizada dentro da pasta raiz do projeto, através de um prompt de comando (recomendado: PowerShell):</p>
 
