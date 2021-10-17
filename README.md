@@ -18,6 +18,7 @@
     <li>Estutura da página: HTML, CSS, JavaScript, React, React-DOM;</li>
     <li>Rotas (com animação ou não): react-router-dom, react-router-hash-link;</li>
     <li>Passagem de parâmetros entre documentos: props (React).</li>
+    <li>Consumo de APIs: axios.</li>
   </ul>
   
   <h3> Back-End </h3>
