@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.home_page{
+.homePage{
     width: 100%;
     
     color: white;
@@ -23,18 +23,18 @@
         grid-template-rows: 700px;
         grid-template-areas: 'sessionleft sessionright';
 
-        background-image: url("../../assets/homePage_images/img1.jpg");
+        background-image: url("../../assets/images/img1.jpg");
         background-repeat: no-repeat;
         background-size: 100%100%;
     }
 
-    .jumbotron .item_blur {
+    .jumbotron .itemBlur {
         width: 100%;
         height: 100%;
 
         position: absolute;
 
-        background-image: url("../../assets/homePage_images/img1.jpg");
+        background-image: url("../../assets/images/img1.jpg");
         background-repeat: no-repeat;
         background-size: 100%100%;
 
@@ -43,7 +43,7 @@
     }
 
     /* Início da sessão 1 */
-    .jumbotron .session_1 {
+    .jumbotron .session1 {
         position: relative;
         display: flex;
         align-items: center;
@@ -56,7 +56,7 @@
     /* Fim da sessão 1 */
 
     /* Início da sessão 2 */
-    .jumbotron .session_2 {
+    .jumbotron .session2 {
         grid-area: sessionright;
     }
     /* Fim da sessão 2 */
@@ -77,14 +77,14 @@
         bottom: 20px;
     }
 
-    .jumbotron .carousel .carousel_selected {
+    .jumbotron .carousel .carouselSelected {
         grid-area: selected;
     
         display: flex;
         justify-content: center;
     }
 
-    .jumbotron .carousel .carousel_items {
+    .jumbotron .carousel .carouselItems {
         grid-area: items;
         
         display: flex;
@@ -129,7 +129,7 @@
         background-position: center;
     }
 
-    .jumbotron .item_blur {
+    .jumbotron .itemBlur {
         background-size: cover;
         background-position: center;
     }
@@ -142,27 +142,18 @@
         grid-template-areas: 'sessionleft';
     }
 
-    .jumbotron .item_blur {
+    .jumbotron .itemBlur {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
     /* Início da sessão 1 */
-        .jumbotron .session_1 {
+        .jumbotron .session1 {
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        }
-
-        .jumbotron .session_1 .container_item {
-            padding: 20px 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
         }
     /* Fim da sessão 1 */
 
     /* Início da sessão 2 */
-        .jumbotron .session_2 {
+        .jumbotron .session2 {
             display: none;
         }
     /* Fim da sessão 2 */
@@ -179,26 +170,5 @@
         height: 500px;
 
         grid-template-rows: 500px;
-    }
-    .jumbotron .session_1 .container_item {
-        padding: 20px 20px;
-    }
-    .jumbotron .session_1 .container_item .item_body .item_title {
-        font-size: 18px;
-    }
-    .jumbotron .session_1 .container_item .item_body .item_subtitle {
-        font-size: 12px;
-    }
-    .jumbotron .session_1 .container_item .item_body .item_description {
-        font-size: 12px;
-    }
-
-    .jumbotron .session_1 .container_item .item_footer {
-        margin-top: 20px;
-    }
-    .jumbotron .session_1 .container_item .item_footer .item_button {
-        font-size: 10px;
-
-        padding: 12px 15px;
     }
 }

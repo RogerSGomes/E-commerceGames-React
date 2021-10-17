@@ -1,9 +1,9 @@
-import './carouselItem.css';
+import './index.css';
 
-function Carousel(props) {
+export default function Carousel(props) {
     if (props.isActive) {
         return (
-            <div className="selected_item" style={{
+            <div className="selectedItem" style={{
                 backgroundImage: `url('${props.img}')`
             }} />
         );
@@ -15,5 +15,3 @@ function Carousel(props) {
         );
     }
 }
-
-export default Carousel;

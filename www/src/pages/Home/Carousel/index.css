@@ -1,4 +1,4 @@
-.carousel_selected .selected_item {
+.selectedItem {
     height: 100%;
     width: 300px;
 
@@ -7,7 +7,7 @@
     background-size: cover;
 }
 
-.carousel_items .item {
+.item {
     height: 80%;
     width: 250px;
 

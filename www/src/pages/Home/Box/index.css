@@ -1,0 +1,97 @@
+.boxContainer {
+    padding: 20px 100px 20px 50px;
+
+    width: 100%;
+
+    display: block;
+    z-index: 1;
+}
+
+.boxContainer .boxBody {
+    padding-bottom: 20px;
+}
+
+.boxContainer .boxBody .boxTitle {
+    margin-bottom: 25px;
+
+    color: #D83953;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transform: scaleY(2);
+}
+
+.boxContainer .boxBody .boxSubtitle {
+    margin-bottom: 15px;
+
+    font-size: 14px;
+}
+
+.boxContainer .boxBody .boxDescription {
+    font-size: 14px;
+}
+
+.boxContainer .boxFooter {
+    margin-top: 50px;
+}
+
+.boxContainer .boxFooter .boxButton {
+    padding: 18px 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    border: none;
+    background-color: #D83953;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.boxContainer .boxFooter .boxButton:hover {
+    box-shadow: 3px 3px 25px #D83953;
+}
+
+@media only screen and (max-width: calc(650px + 70px)) {
+    .boxContainer {
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .boxContainer {
+        padding: 20px 20px;
+    }
+    .boxContainer .boxBody .boxTitle {
+        font-size: 18px;
+    }
+    .boxContainer .boxBody .boxSubtitle {
+        font-size: 12px;
+    }
+    .boxContainer .boxBody .boxDescription {
+        font-size: 12px;
+    }
+
+    .boxContainer .boxFooter {
+        margin-top: 20px;
+    }
+    .boxContainer .boxFooter .boxButton {
+        font-size: 10px;
+
+        padding: 12px 15px;
+    }
+}

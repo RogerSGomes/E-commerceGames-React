@@ -1,17 +1,13 @@
 import { useState, useEffect } from 'react'
-import Api from "../../services/api";
+import Api from "../../services/Api/index";
 
-import "./homePage.css";
+import "./index.css";
 
-import ProductCard from "./components/productCard";
-import ItemContainer from "./components/itemContainer";
-import Carousel from "./components/carouselItem";
+import Product from "./Product";
+import Box from "./Box";
+import Carousel from "./Carousel";
 
-import Background from "../../assets/homePage_images/img3.jpg";
-
-
-export default function HomePage() {
-  console.log(Background);
+export default function Home() {
   // Tratamento API - Produtos
   const [products, setProducts] = useState([]);
 
@@ -24,20 +20,20 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="home_page">
+    <div className="homePage">
 
-      {/* Cabeçalho */}
+      {/* Início do Cabeçalho */}
       <div className="jumbotron">
 
-        <div className="item_blur" />
+        <div className="itemBlur" />
 
-        {/* Sessão 1 */}
-        <div className="session_1">
+        {/* Início da Sessão 1 */}
+        <div className="session1">
 
           {/* Item */}
           {products.map((item, index) => {
             if (index === 0) {
-              return <ItemContainer
+              return <Box
                 isActive
                 key={index}
                 title={item.titulo}
@@ -45,7 +41,7 @@ export default function HomePage() {
                 description={item.descricao}
               />;
             } else {
-              return <ItemContainer
+              return <Box
                 key={index}
                 title={item.titulo}
                 subtitle={item.subtitulo}
@@ -56,11 +52,11 @@ export default function HomePage() {
         </div>
 
         {/* Sessão 2 - Vazio */}
-        <div className="session_2" />
+        <div className="session2" />
 
-        {/* Carousel */}
+        {/* Início do Carousel */}
         <div className="carousel">
-          <div className="carousel_selected">
+          <div className="carouselSelected">
             {products.map((item, index) => {
               return <Carousel
                 key={index}
@@ -74,7 +70,7 @@ export default function HomePage() {
               />
             }).filter((item, index) => index === 0)}
           </div>
-          <div className="carousel_items">
+          <div className="carouselItems">
             {products.map((item, index) => {
               return <Carousel
                 key={index}
@@ -92,12 +88,12 @@ export default function HomePage() {
       </div>
       {/* Fim do Cabeçalho */}
 
-      {/* Container 1 */}
+      {/* Início do Container 1 */}
       <div id="store" className="container">
         <h1>Loja de Games</h1>
         <div className="products">
           {products.map((item, index) => {
-            return <ProductCard
+            return <Product
               key={index}
               img={item.imagem}
               title={item.titulo}

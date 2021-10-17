@@ -9,9 +9,9 @@ import {
 import { HashLink } from 'react-router-hash-link';
 
 //Páginas
-import HomePage from './pages/HomePage/homePage';
-import LoginPage from './pages/LoginPage/loginPage';
-import CartPage from './pages/CartPage/cartPage';
+import Home from './pages/Home/index';
+import Login from './pages/Login/index';
+import Cart from './pages/Cart/index';
 
 //CSS
 import './index.css';
@@ -49,13 +49,13 @@ ReactDOM.render(
       <div className="content">
         <Switch>
           <Route path="/cart">
-            <CartPage />
+            <Cart />
           </Route>
           <Route path="/login">
-            <LoginPage />
+            <Login />
           </Route>
           <Route path="/">
-            <HomePage />
+            <Home />
           </Route>
         </Switch>
       </div>

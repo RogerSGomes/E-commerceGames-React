@@ -1,7 +1,7 @@
 import Axios from "axios";
 
-const Api = Axios.create({
+const api = Axios.create({
     baseURL: "http://localhost:8000",
 });
 
-export default Api;
+export default api;
