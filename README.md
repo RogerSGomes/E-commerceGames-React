@@ -46,13 +46,13 @@
   <ul>
     <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>
   </ul>
-  <p>O Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. Para verificar se o node está instalado basta executar, em seu prompt de comando, o seguinte comando:</p>
+  <p>O Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. Para verificar se ele está instalado, basta executar o seguinte comando no prompt:</p>
   
-    node -v
+    node --version
   
-  <p>Juntamente com a instalação do Node.js, seu gerenciador de pacotes (NPM) deve ter sido instalado. Para verificar se o NPM está presente em seu computador basta executar o comando:</p>
+  <p>Juntamente com a instalação do Node.js, seu gerenciador de pacotes (npm) deve ter sido instalado. Para verificar se o npm está presente em seu computador, basta executar o seguinte comando no prompt:</p>
   
-    npm -v
+    npm --version
 
   <h2 id='instalacao'>🚀 Rodando a Aplicação</h2>  
   <p>Para rodar a aplicação basta realizar o download, extrair o arquivo com alguma ferramenta de descompactação de arquivos (recomendado: WinRAR) e acessar a pasta 'www', localizada dentro da pasta raiz do projeto, através de um prompt de comando (recomendado: PowerShell):</p>
