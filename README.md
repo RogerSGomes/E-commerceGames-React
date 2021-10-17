@@ -19,6 +19,7 @@
     <li>Rotas (com animação ou não): react-router-dom, react-router-hash-link;</li>
     <li>Passagem de parâmetros entre documentos: props (React).</li>
     <li>Consumo de APIs: axios.</li>
+    <li>Tratamento de APIs: hooks (React).</li>
   </ul>
   
   <h3> Back-End </h3>
