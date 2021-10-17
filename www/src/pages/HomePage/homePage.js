@@ -7,7 +7,7 @@ import ProductCard from "./components/productCard";
 import ItemContainer from "./components/itemContainer";
 import Carousel from "./components/carouselItem";
 
-import Background from "../../assets/homePage_images/img4.jpg";
+import Background from "../../assets/homePage_images/img3.jpg";
 
 
 export default function HomePage() {
