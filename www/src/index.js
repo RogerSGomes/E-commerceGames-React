@@ -16,6 +16,8 @@ import Cart from './pages/Cart/index';
 //CSS
 import './index.css';
 
+require.context('./assets/images', true, /\.jpg$/);
+
 ReactDOM.render(
   <Router>
     <div className="body">
