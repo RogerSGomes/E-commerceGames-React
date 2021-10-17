@@ -63,6 +63,7 @@
 
 @media only screen and (max-width: calc(650px + 70px)) {
     .boxContainer {
+        margin-top: -50px;
         padding: 20px 50px;
         display: flex;
         align-items: center;
@@ -70,10 +71,21 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .boxContainer .boxFooter {
+        margin-top: 20px;
+
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .boxContainer {
+        margin-top: -80px;
         padding: 20px 20px;
     }
     .boxContainer .boxBody .boxTitle {
@@ -88,7 +100,14 @@
 
     .boxContainer .boxFooter {
         margin-top: 20px;
+
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
     .boxContainer .boxFooter .boxButton {
         font-size: 10px;
 

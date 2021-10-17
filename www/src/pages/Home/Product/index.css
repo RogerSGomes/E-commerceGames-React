@@ -1,5 +1,5 @@
 .productCard {
-    margin: 30px 20px;
+    margin: 20px 10px;
 
     width: 300px;
     height: 500px;
@@ -83,23 +83,23 @@
 }
 
 .productCard .cardBody .bodyPlatforms .platformItem {
-    padding: 8px;
-
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-
-    background-color: #D83953;
-
-    border: none;
-    border-radius: 10px;
-
-    cursor: pointer;
-    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.productCard .cardBody .bodyPlatforms .platformItem:hover {
-    box-shadow: 3px 3px 25px #D83953;
+.productCard .cardBody .bodyPlatforms .platformItem .platformImg {
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+    transition: all 0.2s ease;
+    border-radius: 10px; 
+    border: 3px solid white;
+}
+
+.productCard .cardBody .bodyPlatforms .platformItem .platformImg:hover {
+    border: 3px solid #D83953;
+    cursor: pointer;
 }
 
 .productCard .cardFooter {
@@ -110,9 +110,15 @@
     width: 100%;
     height: 100%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
     font-weight: bold;
+    text-transform: uppercase;
 
     background-color: #D83953;
 
@@ -125,4 +131,9 @@
 
 .productCard .cardFooter .footerButton:hover {
     box-shadow: 3px 3px 25px #D83953;
+}
+
+.productCard .cardFooter .footerButton i {
+    margin-right: 10px;
+    font-size: 14px;
 }

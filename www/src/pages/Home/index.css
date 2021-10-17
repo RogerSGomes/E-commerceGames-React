@@ -158,6 +158,14 @@
         }
     /* Fim da sessão 2 */
 
+    .jumbotron .carousel {
+        height: 150px;
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 150px;
+        grid-template-areas: 'selected';
+    }
+
     /* Início do container 1 */
         .container h1 {
             text-align: center;
@@ -170,5 +178,13 @@
         height: 500px;
 
         grid-template-rows: 500px;
+    }
+
+    .jumbotron .carousel {
+        height: 100px;
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 100px;
+        grid-template-areas: 'selected';
     }
 }

@@ -1,24 +1,30 @@
 import React from 'react';
 import "./index.css";
 
+import iconxbox from '../../../assets/images/iconxbox.png';
+import iconps from '../../../assets/images/iconps.png';
+import iconpc from '../../../assets/images/iconpc.png';
+import iconswitch from '../../../assets/images/iconswitch.png';
+import iconandroid from '../../../assets/images/iconandroid.png';
+
 function Xbox() {
-    return <div className="platformItem"><p>XB</p></div>;
+    return <div className="platformItem"><img className="platformImg" src={iconxbox} /></div>;
 }
 
 function PS() {
-    return <div className="platformItem"><p>PS</p></div>;
+    return <div className="platformItem"><img className="platformImg" src={iconps} /></div>;
 }
 
 function PC() {
-    return <div className="platformItem"><p>PC</p></div>;
+    return <div className="platformItem"><img className="platformImg" src={iconpc} /></div>;
 }
 
 function Switch() {
-    return <div className="platformItem"><p>SW</p></div>;
+    return <div className="platformItem"><img className="platformImg" src={iconswitch} /></div>;
 }
 
 function Android() {
-    return <div className="platformItem"><p>AD</p></div>;
+    return <div className="platformItem"><img className="platformImg" src={iconandroid} /></div>;
 }
 
 export default function Product(props) {
@@ -46,7 +52,7 @@ export default function Product(props) {
                 </div>
             </div>
             <div className="cardFooter">
-                <button className="footerButton" type="submit">Adicionar ao carrinho</button>
+                <button className="footerButton" type="submit"><i className="material-icons">shopping_cart</i>Adicionar ao carrinho</button>
             </div>
         </div >
     );
