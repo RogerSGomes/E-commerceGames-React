@@ -10,7 +10,7 @@
       <li><a href="#nota">Notas</a></li>
     </ul>    
   <h2 id='sobre'>💬 Sobre</h2>
-  Este projeto é uma tradução do meu projeto (<a href="https://github.com/RobertSGomes/E-commerceGames">E-commerceGames</a>), feito em PHP, para React. Ele foi criado com o intuito de melhorar meus conhecimentos com esta biblioteca e também para resolver algumas limitações encontradas anteriormente. Como esta é uma tradução, o design e alguns recursos como o cadastro e login de usuários, utilizados no projeto antigo, foram mantidos para que a experiência do usuário (UX) seja a mesma, mesmo com essa mudança de técnologias para produção do produto.
+  Este projeto é uma tradução do meu projeto (<a href="https://github.com/RogerSGomes/E-commerceGames">E-commerceGames</a>), feito em PHP, para React. Ele foi criado com o intuito de melhorar meus conhecimentos com esta biblioteca e também para resolver algumas limitações encontradas anteriormente. Como esta é uma tradução, o design e alguns recursos como o cadastro e login de usuários, utilizados no projeto antigo, foram mantidos para que a experiência do usuário (UX) seja a mesma, mesmo com essa mudança de técnologias para produção do produto.
   
   <h2 id='tecnologias'>👨‍💻 Técnologias utilizadas</h2>
   <h3> Front-End </h3>
@@ -89,6 +89,6 @@
   
   <h2 id='nota'>📃 Notas</h2>
   <p>Projeto feito exclusivamente para estudos, ou seja, sem visar nenhuma forma de lucro.</p>
-  <p>Projeto realizado com a ajuda de Roger da Silva Gomes (GitHub: <a href="https://github.com/RogerSGomes/">RogerSGomes</a>).</p>
+  <p>Projeto realizado com a ajuda de Robert da Silva Gomes (GitHub: <a href="https://github.com/RobertSGomes/">RobertSGomes</a>).</p>
   <p>Projeto em desenvolvimento, atualizações serão feitas com o passar do tempo.</p>
   
